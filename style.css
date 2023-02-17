@@ -1,0 +1,230 @@
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
+.logoPrincipal{
+    display: flex;
+    justify-content: center;
+}
+
+.slogan{
+    text-align: center;
+}
+
+.personas1{
+    background-repeat: no-repeat;
+    background-position: 200px 200px;
+}
+
+/* ICONS */
+
+#dental-icons{
+    padding: 20px 50px;
+    text-align: center;
+    display: flex;    
+    justify-content: center;
+
+}
+
+#dental-icons div{
+    padding: 20px 15px;
+}
+
+#dental-icons div h4{
+    color: black;
+    font-size: 20px;
+    margin: 5px 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#dental-icons div p{
+    color: grey;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#dental-icons div i{
+    color: grey;
+}
+
+
+/* Navbar css */
+
+#espacio {
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+#account{
+    margin-left: 1px;
+    padding-left: 1px;
+}
+
+#icon-account{
+    margin-left: 23px;
+    padding-left: 23px;
+}
+
+
+.division-line {
+    margin: 2rem 0;
+    color: #4283b4;
+    border: solid 1px #4283b4;
+}
+
+.division{
+    position: relative;
+    top: -800%;
+}
+
+.hover12 {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover12:hover {
+    opacity: .5;
+}
+
+.textos{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Banner */
+
+.banner{
+    width: 1250px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: auto;
+    background-image: url('banner.png');
+
+}
+
+.Mayusculas{
+    text-align: initial;
+    margin-left: 100px;
+    top: 20px;
+    font-size: 30px;
+    position: relative;
+    color: green;
+}
+
+.argumento{
+    text-align: initial;
+    margin-left: 150px;
+    top: 5px;
+    font-size: 18px;
+    position: relative;
+    color: green;   
+    
+}
+
+.gente{
+    position: relative;
+    width: 500px;
+    height: 150px;
+    padding-right: 180px;
+    top: -106px;
+    
+}
+
+.banner-items{
+    text-decoration: none;
+}
+
+.encabezados{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+.Eslogan-main{
+    color:#53c72c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+/* CARRUSEL */
+
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    height: 65vh;
+    padding: 40px;
+}
